@@ -1,0 +1,52 @@
+version: 2
+
+sources:
+  - name: dwblackfriday  # Substitua pelo nome do banco de dados
+    schema: public   # Substitua pelo nome do schema
+
+    tables:
+      - name: typeform_response
+        description: "Responses from Typeform surveys."
+        columns:
+          - name: "submitted_at"
+            description: "The date and time when the response was submitted."
+          - name: "response_id"
+            description: "Unique identifier for the response."
+          - name: "CeQuaKVAlVZZ"
+            description: "Response to question 1."
+          - name: "2rkrHBSRpKYk"
+            description: "Response to question 2."
+          - name: "x2D3pvft5KFf"
+            description: "Response to question 3."
+          - name: "3BD4lxDFA3kC"
+            description: "Response to question 4."
+
+      - name: google_analytics_zapflow
+        description: "Google Analytics data for the Zapflow website."
+        columns:
+          - name: "date"
+            description: "The date of the session."
+          - name: "city"
+            description: "The city of the user."
+          - name: "country"
+            description: "The country of the user."
+          - name: "deviceCategory"
+            description: "The category of device used (desktop, mobile, etc.)."
+          - name: "sessionSource"
+            description: "The source of the session (e.g., youtube.com, direct)."
+          - name: "sessionMedium"
+            description: "The medium of the session (e.g., referral, organic)."
+          - name: "totalUsers"
+            description: "The total number of users in the session."
+          - name: "newUsers"
+            description: "The number of new users in the session."
+          - name: "activeUsers"
+            description: "The number of active users in the session."
+          - name: "sessions"
+            description: "The total number of sessions."
+          - name: "engagedSessions"
+            description: "The number of engaged sessions."
+          - name: "averageSessionDuration"
+            description: "The average duration of the session."
+          - name: "screenPageViews"
+            description: "The number of page views."
